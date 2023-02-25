@@ -127,16 +127,6 @@ st.download_button(
     mime='text/csv',
 )
 
-# with pd.ExcelWriter('hasilkedua.xlsx') as writer:
-#     for i in hasil:
-#         hasil.iloc[i].to_excel(writer, sheet_name=str(hasil.iloc[i][0]))
-
-# st.download_button(
-#     label="Download data sebagai Excel",
-#     data=xlsx,
-#     file_name='hasilfinal.csv',
-#     mime='text/csv',
-# )
-
 st.success('Pembagian berhasil!', icon="✅")
 
+st.caption('Data sudah dapat dicetak satu-persatu menggunakan mail merge dengan template berikut: [templatebagi.docx](https://github.com/IrvanAldias/bagisls/blob/main/templatebagi.docx)'
