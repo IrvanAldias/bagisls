@@ -4,8 +4,6 @@ import random
 import pdfkit
 from jinja2 import Environment, PackageLoader, select_autoescape, FileSystemLoader
 
-st.set_page_config(page_icon="📃", page_title="BagiSLS")
-
 st.image(
     "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/microsoft/319/page-with-curl_1f4c3.png",
     width=100,
