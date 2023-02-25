@@ -129,4 +129,4 @@ st.download_button(
 
 st.success('Pembagian berhasil!', icon="✅")
 
-st.caption('Data sudah dapat dicetak satu-persatu menggunakan mail merge dengan template berikut: [templatebagi.docx](https://github.com/IrvanAldias/bagisls/blob/main/templatebagi.docx)'
+st.caption('Data sudah dapat dicetak satu-persatu menggunakan mail merge dengan template berikut: [templatebagi.docx](https://github.com/IrvanAldias/bagisls/blob/main/templatebagi.docx)')
