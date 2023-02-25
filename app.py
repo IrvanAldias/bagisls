@@ -30,7 +30,7 @@ if uploaded_file is not None:
 else:
     st.info(
         f"""
-            👆 Unggah dokumen .csv terlebih dahulu. Contoh dokumen .csv: [datasls.csv](https://people.sc.fsu.edu/~jburkardt/data/csv/biostats.csv)
+            👆 Unggah dokumen .csv terlebih dahulu. Contoh dokumen .csv: [barufebmarbukanpercepatan.csv](https://raw.githubusercontent.com/IrvanAldias/bagisls/main/barufebmarbukanpercepatan.csv)
             """
     )
     st.stop()
@@ -68,7 +68,7 @@ if uploaded_file2 is not None:
 else:
     st.info(
         f"""
-            👆 Unggah dokumen .csv terlebih dahulu. Contoh dokumen .csv: [biostats.csv](https://people.sc.fsu.edu/~jburkardt/data/csv/biostats.csv)
+            👆 Unggah dokumen .csv terlebih dahulu. Contoh dokumen .csv: [dummy63.csv](https://raw.githubusercontent.com/IrvanAldias/bagisls/main/dummy63.csv)
             """
     )
     st.stop()
